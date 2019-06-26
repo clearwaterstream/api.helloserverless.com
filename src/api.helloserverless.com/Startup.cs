@@ -53,7 +53,7 @@ namespace api.helloserverless.com
 
         protected virtual void ConfigureRoutes(IRouteBuilder routes)
         {
-            routes.MapRoute("versioned", "{controller=Home}/{action=Index}/{id?}");
+            routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
         }
 
         void OnShuttingDown()
