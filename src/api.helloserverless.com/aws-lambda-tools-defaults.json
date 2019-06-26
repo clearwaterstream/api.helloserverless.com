@@ -1,0 +1,12 @@
+{
+  "region": "us-east-1",
+  "configuration": "Release",
+  "framework": "netcoreapp2.1",
+  "function-name": "api-helloserverless-com",
+  "function-handler": "api.helloserverless.com::api.helloserverless.com.LambdaEntryPoint::FunctionHandlerAsync",
+  "function-memory-size": 128,
+  "function-timeout": 30,
+  "function-runtime": "dotnetcore2.1",
+  "tracing-mode": "PassThrough",
+  "environment-variables": "\"ASPNETCORE_ENVIRONMENT\"=\"Production\""
+}
